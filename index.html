@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Artisan Burgers - Hambúrgueres Artesanais de Qualidade"
+    />
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <title>Artisan Burgers</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img src="assets/img/logo.svg" alt="Artisan Burgers Logo" class="logo" />
+        <nav>
+          <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Galeria</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home" class="banner">
+      <!-- <img src="img/banner.jpg" alt="Banner Artisan Burgers"> -->
+      <div class="banner-text">
+        <h1>Bem-vindo à Artisan Burgers</h1>
+        <p>
+          Hambúrgueres artesanais feitos com paixão e ingredientes de qualidade.
+        </p>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2>Sobre Nós</h2>
+        <p>
+          Na Artisan Burgers, acreditamos que um hambúrguer perfeito começa com
+          os melhores ingredientes. Nossa missão é oferecer uma experiência
+          gastronômica única, com hambúrgueres artesanais preparados na hora.
+        </p>
+      </div>
+    </section>
+
+    <section id="menu" class="menu">
+      <h2>Nosso Menu</h2>
+      <div class="container">
+        <div class="menu-item">
+          <img src="assets/img/burguer1.jpg" alt="Hambúrguer Clássico" />
+          <h3>Hambúrguer Clássico</h3>
+          <p>
+            Pão artesanal, carne bovina suculenta, queijo derretido, alface,
+            tomate e molho especial.
+          </p>
+        </div>
+        <div class="menu-item">
+          <img src="assets/img/burguer2.jpg" alt="Cheeseburger" />
+          <h3>Cheeseburger</h3>
+          <p>
+            Pão artesanal, carne bovina, queijo cheddar, cebola caramelizada,
+            picles e ketchup.
+          </p>
+        </div>
+        <div class="menu-item">
+          <img src="assets/img/burguer3.jpg" alt="Hambúrguer Vegetariano" />
+          <h3>Hambúrguer Vegetariano</h3>
+          <p>
+            Pão integral, hambúrguer de grão-de-bico, alface, tomate, cebola
+            roxa e molho de iogurte.
+          </p>
+        </div>
+        <div class="menu-item">
+          <img src="assets/img/burguer4.jpg" alt="Cheeseburger" />
+          <h3>Combo 2 Cheeseburger</h3>
+          <p>
+            2 Hamburguer, composto por: Pão artesanal, carne bovina, queijo cheddar, cebola caramelizada,
+            picles e ketchup.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+
+      <div class="galeria">
+        <h2>Galeria</h2>
+      </div>
+      
+      <div class="container">
+        <div class="gallery-item">
+          <img src="assets/img/gallery1.jpg" alt="Interior da Hamburgueria" />
+            <div class="hidden">
+              <h3>Espaço</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat odit accusantium alias tempore molestiae eos asperiores harum. Sit, blanditiis.</p>
+            </div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/img/gallery2.jpg" alt="Preparação de Hambúrgueres" />
+          <div class="hidden">
+            <h3>Ingredientes</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat odit accusantium alias tempore molestiae eos asperiores harum. Sit, blanditiis.</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/img/gallery3.jpg" alt="Hambúrgueres na Grelha" />
+          <div class="hidden">
+            <h3>Carnes</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat odit accusantium alias tempore molestiae eos asperiores harum. Sit, blanditiis.</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/img/gallery4.jpg" alt="Hambúrgueres na Grelha" />
+          <div class="hidden">
+            <h3>Lanches</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat odit accusantium alias tempore molestiae eos asperiores harum. Sit, blanditiis.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contato</h2>
+      <p>
+        Entre em contato conosco para saber mais sobre nossos hambúrgueres
+        artesanais ou fazer uma reserva.
+      </p>
+      <div class="container">
+        <form>
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" required placeholder="Digite seu nome" />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required placeholder="email@exemplo.com"/>
+
+          <label for="message">Mensagem:</label>
+          <textarea id="message" name="message" required placeholder="Digite sua mensagem"></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Artisan Burgers. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
